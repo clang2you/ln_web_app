@@ -1,10 +1,10 @@
 export default {
   'pages.layouts.userLayout.title': 'Coding By LN3 IT. Powered by React / Ant Design',
-  'pages.login.accountLogin.tab': '账户密码登录',
+  'pages.login.accountLogin.tab': '请输入账户 / 密码登录系统',
   'pages.login.accountLogin.errorMessage': '错误的用户名和密码（admin/ant.design)',
-  'pages.login.username.placeholder': '用户名: admin or user',
+  'pages.login.username.placeholder': '请输入您的 email 账号',
   'pages.login.username.required': '用户名是必填项！',
-  'pages.login.password.placeholder': '密码: ant.design',
+  'pages.login.password.placeholder': '如忘记,请联系管理员重置密码',
   'pages.login.password.required': '密码是必填项！',
   'pages.login.phoneLogin.tab': '手机号登录',
   'pages.login.phoneLogin.errorMessage': '验证码错误',
