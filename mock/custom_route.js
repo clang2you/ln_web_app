@@ -4,6 +4,12 @@ export default {
 		message: 'response sucessful',
 		data: [
 			{
+				path: '/welcome',
+				name: 'welcome',
+				children: null,
+				authority: [ 'admin' ]
+			},
+			{
 				path: '/admin',
 				name: 'admin',
 				children: [
@@ -11,10 +17,10 @@ export default {
 						path: '/admin/sub-page',
 						name: 'sub-page',
 						children: null,
-						authority: ['admin','user']
+						authority: [ 'admin', 'user' ]
 					}
 				],
-				authority: [ 'admin', 'user']
+				authority: [ 'admin', 'user' ]
 			}
 		]
 	}
