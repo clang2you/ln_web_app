@@ -11,7 +11,7 @@ const updateRouteAuthority = (path, routeData, sAuth) => {
 				if (route.path === '/' || pathRegexp(`${route.path}/(.*)`).test(`${path}/`)) {
 					if ((route.path === path) && sAuth) {
 						route.authority = sAuth;
-                        console.log(route.path,route.authority)
+                        // console.log(route.path,route.authority)
 					}
 
 					if (route.routes) {

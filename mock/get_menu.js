@@ -1,5 +1,5 @@
 export default {
-	'GET /api/custom_routes': {
+	'POST /api/get_menu': {
 		code: 0,
 		message: 'response sucessful',
 		data: [
